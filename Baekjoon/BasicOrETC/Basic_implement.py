@@ -278,7 +278,7 @@ keyword : 구현
     
 '''
 [2884 알람 시계] - 브론즈 3
-time : 
+time : 해결
 keyword : 구현
 
 * 첫째 줄에 두 정수 H와 M이 주어진다.
@@ -292,7 +292,7 @@ h, m =map(int, input().split())
 
 m = m - 45
 
-if m <= 0 :
+if m < 0 :
     m = 60 + m
     if h != 0 :
         h -= 1

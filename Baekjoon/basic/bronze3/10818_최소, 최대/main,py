@@ -1,0 +1,15 @@
+"""
+time : 5m 34s
+keyword : 수학, 구현
+"""
+
+
+"""
+<접근 방식>
+어떻게 n개 만큼 한 줄로 받지?
+"""
+
+n = int(input())
+list_num  = list(map(int,input().split()))
+ 
+print(f"{min(list_num)} {max(list_num)}")           
