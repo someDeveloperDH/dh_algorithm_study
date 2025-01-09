@@ -1,5 +1,5 @@
 """
-time :
+time : 10m 32s
 keyword : 수학, 구현, 사칙연산
 """
 
